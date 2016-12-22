@@ -1,0 +1,24 @@
+<div class="mfp-content"><div id="small-dialog" class="zoom-anim-dialog">
+        <h1>Dialog example</h1>
+        <img class="foodpic" src="https://dariaculverevents.files.wordpress.com/2011/11/al0123.jpg">
+      <button title="Close (Esc)" type="button" class="mfp-close">×</button></div></div>
+
+
+CSS
+
+#small-dialog {
+  background: white;
+  padding: 20px 30px;
+  text-align: left;
+  max-width: 900px;
+  margin: 40px auto;
+  position: relative;
+}
+
+img.foodpic {
+  width: 100%;
+}
+
+h1 {
+  margin-bottom: 5px;
+}
